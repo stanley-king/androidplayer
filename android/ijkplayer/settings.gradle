@@ -1,10 +1,6 @@
-include ':ijkplayer-armv5', ':ijkplayer-x86_64'
-include ':ijkplayer-armv7a'
-include ':ijkplayer-arm64'
-include ':ijkplayer-x86'
+//include ':ijkplayer-example', ':ijkplayer-java',':ijkplayer-armv7a', ':simpleplayer'
+include ':ijkplayer-example', ':ijkplayer-java',':ijkplayer-armv7a', ':app',':simpleplJLJayer'
+//include ':ijkplayer-java',':ijkplayer-armv7a', ':simpleplayer'
 
-include ':ijkplayer-java'
-include ':ijkplayer-exo'
-
-include ':ijkplayer-example'
+//include ':ijkplayer-armv5', ':ijkplayer-x86_64', ':ijkplayer-arm64', ':ijkplayer-x86' ':ijkplayer-exo',
 

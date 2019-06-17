@@ -970,8 +970,7 @@ public final class IjkMediaPlayer extends AbstractMediaPlayer {
         public void handleMessage(Message msg) {
             IjkMediaPlayer player = mWeakPlayer.get();
             if (player == null || player.mNativeMediaPlayer == 0) {
-                DebugLog.w(TAG,
-                        "IjkMediaPlayer went away with unhandled events");
+                DebugLog.w(TAG,"IjkMediaPlayer went away with unhandled events");
                 return;
             }
 
