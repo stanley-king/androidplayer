@@ -6,3 +6,6 @@
 /build
 /captures
 android-ndk-prof
+.externalNativeBuild
+/android/ijkplayer/ijkplayer-exo/.gitignore
+/android/ijkplayer/gradle
